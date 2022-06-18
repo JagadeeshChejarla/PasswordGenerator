@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.demo.Entities.Admin;
-import com.example.demo.Repo.AdminDAO;
+import com.example.entities.Admin;
+import com.example.repo.AdminDAO;
 
 @SpringBootTest
 class SampleProject1ApplicationTests {

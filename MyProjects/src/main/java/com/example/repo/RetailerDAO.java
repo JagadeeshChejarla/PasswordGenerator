@@ -1,4 +1,4 @@
-package com.example.demo.Repo;
+package com.example.repo;
 
 
 public interface RetailerDAO {

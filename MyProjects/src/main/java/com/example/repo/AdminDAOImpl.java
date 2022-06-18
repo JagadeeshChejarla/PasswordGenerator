@@ -1,21 +1,23 @@
-package com.example.demo.Repo;
+package com.example.repo;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.Entities.Admin;
+import com.example.entities.Admin;
+
 
 @Repository
 public class AdminDAOImpl implements AdminDAO {
-    @PersistenceContext
+      @PersistenceContext
       private EntityManager entityManager;
 
 	@Override
 	@Transactional
-	public Admin getAdmin(int id) {
+	public Admin getAdmin(int id){
 		Admin ad = this.entityManager.find(Admin.class,id);
 		return ad;
 	}

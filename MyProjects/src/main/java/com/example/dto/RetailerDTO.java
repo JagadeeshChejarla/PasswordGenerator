@@ -1,4 +1,4 @@
-package com.example.demo.DTO;
+package com.example.dto;
 
 public class RetailerDTO {
 	private String rName;

@@ -1,6 +1,5 @@
-package com.example.demo.Services;
-
-import com.example.demo.Entities.Admin;
+package com.example.services;
+import com.example.entities.Admin;
 
 public interface AdminService {
 	public String addAdmin(Admin admin);
